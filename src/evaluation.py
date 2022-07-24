@@ -95,12 +95,4 @@ def main():
 
 
 if __name__ == "__main__":
-    parametros=main()
-
-
-# df = pd.read_csv(os.path.join('./data/raw/', 'bankloan_score.csv')).set_index('id')
-# df.columns
-
-# del df['default']
-# df.to_clipboard
-# df.to_csv(os.path.join('./data/raw/', 'bankloan_score.csv'))
+    main()

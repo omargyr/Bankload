@@ -41,10 +41,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# df = read_file_csv('bankloan_score.csv')
-# modelo=cargar_modelo(df)
-# score_model(df, modelo, 'final_score.csv')
-# res = modelo.predict(df).reshape(-1,1)
-# pred = pd.DataFrame(res, columns=['PREDICT'])

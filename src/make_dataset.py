@@ -87,21 +87,3 @@ def main():
     
 if __name__ == "__main__":
     main()
-
-
-
-# path=os.getcwd()
-# os.listdir(os.path.join(path,'data/raw/'))
-# path=os.getcwd()
-# os.listdir(os.path.join('./data/raw/'))
-# os.listdir(os.path.join('./src/'))
-
-# df = pd.read_csv(os.path.join('data/raw/','bankloan.csv'))
-# df=read_file_csv('bankloan.csv')
-# df.columns
-# df.head()
-# del gg
-# gg=data_preparation(df,target=True)
-# data_exporting(gg, 'bankloan_train.csv')
-
-# python '.\src\make_dataset.py'
